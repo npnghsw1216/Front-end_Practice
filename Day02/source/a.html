@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>a 상태변화, 페이지 내 링크</title>
+        <style>
+            /* 기본 */
+            a:link{
+                color:teal;
+                text-decoration:none; /* 밑줄 지우기 */
+            }
+            /* 방문한 적 있음 */
+            a:visited{
+                color:crimson;
+                text-decoration:none;
+            }
+            /* 마우스를 올리면 */
+            a:hover{
+                color:magenta;
+            }
+            /* 마우스를 클릭하고 있으면 */
+            a:active{
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>링크 상태 알아보기</h1>
+        <h2><a href="http://www.google.com">세계 최대 IT회사</a></h2>
+        <h2><a href="http://www.naver.com">국내 최대 IT회사</a></h2>
+
+        <hr>
+
+        <h1 id="menu">페이지 책갈피</h1>
+        <p><a href="#book1">북마크1</a></p>
+        <p><a href="#book2">북마크2</a></p>
+        <h2>제목01</h2><p>내용01</p>
+        <h2>제목02</h2><p>내용02</p>
+        <h2>제목03</h2><p>내용03</p>
+        <h2>제목04</h2><p>내용04</p>
+        <h2>제목05</h2><p>내용05</p>
+        <h2><a id="book1">제목06</a></h2><p>내용06</p>
+        <h2>제목07</h2><p>내용07</p>
+        <h2>제목08</h2><p>내용08</p>
+        <h2>제목09</h2><p>내용09</p>
+        <h2>제목10</h2><p>내용10</p>
+        <h2><a id="book2">제목11</a></h2><p>내용11</p>
+        <h2>제목12</h2><p>내용12</p>
+        <h2>제목13</h2><p>내용13</p>
+        <h2>제목14</h2><p>내용14</p>
+        <h2>제목15</h2><p>내용15</p>
+        <h2><a href="#menu">처음으로</a></h2>
+
+    </body>
+</html>
