@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>행별 스타일 지정</title>
+        <style>
+            th, td{
+                width:100px;
+                height:15px;
+                padding:10px;
+                text-align:center;
+            }
+            thead{
+                background: #e3f2fd;
+            }
+            tbody{
+                background: #e0f2f1;
+            }
+            tfoot{
+                background: #ffcdd2;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <caption>
+                <strong>
+                    &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;
+                </strong>
+                <thead>
+                    <tr>
+                        <th>태그명</th>
+                        <th>영역</th>
+                        <th>화면판독기</th>
+                        <th>기타</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>thead</td>
+                        <td>제목</td>
+                        <td rowspan="3">O</td>
+                        <td style="background:yellow"></td>
+                    </tr>
+                    <tr>
+                        <td>tbody</td>
+                        <td>본문</td>
+                        <td style="background:yellow"></td>
+                    </tr>
+                    <tr>
+                        <td>tfoot</td>
+                        <td>요약</td>
+                        <td style="background:yellow"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">요약</th>
+                    </tr>
+                </tfoot>
+            </caption>
+        </table>
+    </body>
+</html>
