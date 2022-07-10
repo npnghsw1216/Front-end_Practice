@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>강제회원가입</title>
+    </head>
+    <body>
+        <h1>강제가입을 환영합니다.</h1>        
+        <form action="register.html" method="post" enctype="multipart/form-data"> 
+            <p>아이디<input type="text" size="20" maxlength="12"
+                placeholder="아이디를 입력하세요." id="userid" name="userid"></p>
+            <p>비밀번호<input type="password" size="20"></p>
+            <p>
+                <strong>성별</strong>
+                <label>남자<input type="radio" name="gender" checked value="M"></label>
+                <label>여자<input type="radio" name="gender" value="W"></label>
+            </p>
+            <fieldset>
+                <legend>취미</legend>
+                <p>
+                    <label>드라이브<input type="checkbox" name="hobby" value="드라이브"></label>
+                    <label>게임<input type="checkbox" name="hobby" value="게임"></label>
+                    <label>영화감상<input type="checkbox" name="hobby" value="영화감상"></label>
+                </p>
+            </fieldset>
+
+            <p>
+                <select name="reason">
+                    <option value="강제">강제</option>
+                    <option value="반강제">반강제</option>
+                    <option value="나도모르게">나도모르게</option>
+                </select>
+            </p>
+
+            <p>
+                만족도(상,중,하)<input type="range" value="1" min="1"max="3">
+            </p>
+
+            <p>
+                교통수단<input type="text" list="trans">
+                    <!-- datalist : 사용자가 특정한 글자를 입력하면 지정된 목록 -->
+                    <datalist id="trans">
+                        <option value="bus" label="버스"></option>
+                        <option value="bicycle"></option>
+                        <option value="taxi"></option>
+                    </datalist>
+                    <p><input type="submit" value="가입완료"></p>
+                    <p><input type="reset" value="초기화"></p>
+                    <p>
+                        <input type="button" value="그냥" 
+                        onclick="sendit();">
+                    </p>
+            </p>
+        </form>
+    </body>
+
+    <script>
+        function sendit(){
+            alert("이거 누르지 말라니까");
+        }
+    </script>
+</html>
