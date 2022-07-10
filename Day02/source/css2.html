@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML 요소 선택</title>
+        <style>
+            *{
+                color:blue;
+            }
+            h2{
+                color:red;
+            }
+            p{
+                font-size:12px;
+                margin-left:20px;
+            }
+            #container{
+                background:#ff6a00;
+                width:400px;
+                height:200px;
+                margin:0 auto;
+            }
+            div.greentext{
+                color:green;
+            }
+            .cyantext{
+                color:cyan;
+            }
+            p.grey, p.violet{
+                font-size:36px;
+                margin-left:20px;
+            }
+            p.grey{
+                color:grey;
+            }
+            p.violet{
+                color:violet;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML요소 선택자</h1>
+        <h2>특정 태그를 사용한 요소에 스타일 적용하기</h2>
+        <p class="greentext">특정 태그가 쓰인 모든 요소에 스타일을 적용한다.</p>
+        <div id="container"></div><br>
+        <div class="greentext">이것은 그린 텍스트</div><br>
+        <div class="cyantext">이것은 하늘색 틱스트</div>
+        <hr>
+        <h1>그룹(group) 선택하기</h1>
+        <p class="grey">그룹을 선택할 경우는 여러 선택자를 쉼표로</p>
+        <p class="violet">연결하고 한 번만 정의하면 된다.</p>
+    </body>
+</html>
