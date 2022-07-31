@@ -11,6 +11,7 @@ userJSON = JSON.stringify(user);
 
 // 파일입출력은 기본적으로 비동기방식
 // writeFile(경로, 작성할 내용, 인코딩방식, 콜백함수(에러))
+/*
 file.writeFile('user.json', userJSON, 'UTF-8', 
     function(e){
         if(e){
@@ -20,7 +21,7 @@ file.writeFile('user.json', userJSON, 'UTF-8',
             console.log("파일 write 성공");
         }
     });
-
+*/
 
 // readFile(경로, 인코딩, 콜백함수(에러, 내용))
 /*
