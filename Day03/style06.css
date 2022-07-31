@@ -1,0 +1,40 @@
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin-left: 10px;
+    margin-bottom : 20px;
+}
+.box2 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px 0px 30px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+.flex-row {
+    display:flex;
+}
+.box-align {
+    /* ?? ?? 紐⑤뱺 ?붿냼???ъ씠???ъ쑀怨듦컙???먭퀬 諛곗튂 */
+    justify-content:space-around;
+    /* justify-content:space-evenly; */ /* 紐⑤뱺 ?붿냼媛꾩쓽 嫄곕━瑜??숈씪 */
+    /* justify-content:space-between; */ /* ?????붿냼??怨좊젮 X ?붿냼媛꾩쓽 嫄곕━留?以?*/
+}
+.box-align-center {
+    justify-content:center; /* 媛?대뜲遺??*/
+}
+.box-align-end {
+    justify-content:flex-end; /* ?ㅼそ遺??*/
+}
