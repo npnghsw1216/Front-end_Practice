@@ -1,0 +1,41 @@
+body {
+    font-family: 'Edu QLD Beginner', cursive;  /* Gulim */
+    font-size: 36px;  /* em */
+}
+
+body > p {
+    background-color:chocolate;
+}
+
+body > div {
+    background-color:goldenrod;
+}
+
+.div01 {
+    width:300px; height:150px; background-color:pink;
+}
+.div02 {
+    width:300px; height:150px; background-color:deepskyblue; 
+}
+.span01 {
+    width:300px; height:150px; background-color:pink;
+}
+.span02 {
+    width:300px; height:150px; background-color:deepskyblue; 
+}
+.span03 {
+    background-color:rgb(250, 230, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px; /* inline ?띿꽦? height, width 吏?뺤씠 臾댁쓽誘?*/
+}
+.span04 {
+    display: block; /* block ?띿꽦?쇰줈 蹂寃?媛??*/
+    background-color:lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px;
+}
+
+.parents {
+    display:flex;
+    background-color: white;
+}
