@@ -1,0 +1,25 @@
+.box-size {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-red { background-color: red; }
+.bg-green { background-color: green; }
+.bg-yellow { background-color: yellow; }
+.bg-blue { background-color: blue; }
+
+.flex-row {
+    display: flex;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.flex-center {
+    justify-content: center;
+}
