@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Script Tag에 코드 작성</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>마우스를 올려보실려면 올려보시던가....</h3>
+        <hr>
+        <!-- this는 해당 속성이 포함된 태그를 의미 -->
+        <img src="images/Cat(grey).png" 
+            onmouseover="over(this)"
+            onmouseout="out(this)"
+            ondblclick="dbclick(this)">
+    </body>
+    <Script>
+        function over(arg){
+            arg.src = "images/Cat(Color).png";
+        }
+
+        function out(arg){
+            arg.src = "images/Cat(grey).png";
+        }
+
+        function dbclick(arg){
+            arg.src = "images/Cat.png";
+        }
+    </Script>
+</html>
