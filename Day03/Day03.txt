@@ -1,0 +1,52 @@
+Day3
+
+1. Layout
+   - 엘리먼트(버튼 등 웹을 구성하는 모든 것)을 화면에 배치하는 것
+   - 기본적으로 위에서부터 아래로 배치
+   - 웹은 다양한 표현이 가능해야 하므로, 다양한 배치를 위해 속성을 활용
+
+   * 중요 속성
+   display : block, inline
+   position : static, relative, absolute, fixed
+   float : left, right
+
+2. display 속성
+(1) block
+    속성이 block인 엘리먼트는 벽돌을 쌓듯이 쌓임
+    대표적인 block 속성 엘리먼트
+        - div, header, h*, hr, canvas, article, section, ol, ul
+    width, height 값을 지정할 수 있음
+
+(2) inline
+    한 줄을 다 차지하지 않고 우측으로, 아래쪽으로 빈자리를 차지하며 흐름
+    대표적인 inline 속성 엘리먼트
+        - span, br, button, map, select, strong, textarea
+    width, height 지정은 할 수 있으나 무시당함
+
+(3) flex
+    block 속성의 태그들을 여러 형태로 배치해주는 스타일
+    block 속성의 태그를 가로로 배치함
+
+3. position 속성
+    - 엘리먼트가 배치되는 방식(위치)
+
+(1) static(기본)
+    - 순서대로 배치
+
+(2) absolute
+    - top/left/right/bottom
+    - 상위 엘리먼트의 기준점 기준으로 위치 지정
+
+(3) relative
+    - top/left/right/bottom
+    - 원래 자기의 위치를 기준으로 위치 지정
+
+(4) fixed
+    - 전체화면(Viewport) 기준으로 위치 지정
+
+4. Margin, Padding
+   - top, right, bottom, left의 속성을 가짐
+   - Margin : 다른 엘리먼트와 나와의 간격
+   - Padding : 내 소속 엘리먼트와 가장자리와의 간격
+   - Padding에 따라 크기가 달라지나
+     box-sizing을 border-box로 설정하면 엘리먼트의 크기 고정
