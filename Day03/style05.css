@@ -1,0 +1,39 @@
+.wrap {
+    font-family: 'Edu QLD Beginner', cursive;  /* Gulim */
+    font-size: 32px;
+    height: 800px;
+    width: 800px;
+    background-color: aquamarine;
+}
+.div1 {
+    margin: 10px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.div2 {
+    /* box-sizing : border-box???ш린 議곗젙???섏? ?딅뒗??*/
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 50px 100px 150px 200px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(17, 148, 115);
+}
+.div3 {
+    margin: 20px 20px 20px 20px;
+    padding: 30px 100px;
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+}
+/* semantic tag??block?띿꽦 */
+nav {
+    background-color: rgb(73, 112, 143);
+    color: white;
+    font-size: 50px;
+}
+footer {
+    background-color: yellow;
+}
