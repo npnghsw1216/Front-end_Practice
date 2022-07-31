@@ -1,0 +1,43 @@
+#wrap {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 100px;
+    background-color: coral;
+}
+
+.main-menu {
+    height: 70px;
+    background-color: darkorchid;
+}
+
+.main-content {
+    width: 800px;
+}
+
+.content1 {
+    height: 250px;
+    background-color: cadetblue;
+}
+
+.content2 {
+    height: 250px;
+    background-color: darkred;
+}
+
+.sub-content {
+    width: 400px;
+    height: 500px;
+    background-color:hotpink;
+}
+
+footer {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.flex-row {
+    display: flex;
+}
