@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>경고 대화상자 alert()</title>
+</head>
+<body>
+</body>
+<script>
+    var msg = "";
+    var ret = confirm("1억 결제하시겠습니까?");
+    console.log(ret);
+
+    if(ret){
+        msg = "결제되었습니다. 사실 시장가치는 29만원입니다.";
+    }
+    else{
+        msg = "후회하실 겁니다.";
+    }
+    
+    alert(msg);
+    
+</script>
+</html>
